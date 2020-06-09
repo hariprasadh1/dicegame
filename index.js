@@ -18,5 +18,9 @@ if(randomA>randomB)
 results.innerHTML="Player 1 Wins"
 else if(randomA < randomB)
 results.innerHTML="Player 2 Wins"
-else
+else 
 results.innerHTML="Draw"
+
+setTimeout(function(){
+  results.innerHTML="Refresh Me"
+},1000);
